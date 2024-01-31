@@ -22,6 +22,12 @@ nmap rs  <Plug>ReplaceWithRegisterOperator
 nmap rss <Plug>ReplaceWithRegisterLine
 xmap rs  <Plug>ReplaceWithRegisterVisual
 
+"使用jkli代替hjkl作为方向键，并使h代替i作为insert模式入口
+noremap i k
+noremap k j
+noremap j h
+noremap h i
+
 " 高亮搜索
 set hlsearch
 " 搜索时跳到搜索目标处
